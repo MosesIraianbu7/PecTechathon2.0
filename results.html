@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Checker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-white font-sans">
+    <div class="bg-gradient-to-r from-orange-600 to-orange-300 text-center py-8">
+        <h1 class="text-white text-4xl font-bold">Plagiarism Checker</h1>
+    </div>
+    <div class="flex justify-center mt-4">
+        <button class="bg-purple-600 text-white py-2 px-4 rounded-full mx-2">Web Search</button>
+        <button class="bg-purple-600 text-white py-2 px-4 rounded-full mx-2">Text Comparison</button>
+        <button class="bg-purple-600 text-white py-2 px-4 rounded-full mx-2">AI Detection</button>
+    </div>
+    <div class="flex justify-center mt-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md w-1/2 mr-4">
+            <div class="flex items-center mb-4">
+                <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-LmQ09WWGIGwOeeA4ArnRw0x5/user-uJPET5fjNenSso8wCETWVNOp/img-xneANEW04n5StgAglzywUhE2.png?st=2024-09-17T14%3A22%3A11Z&amp;se=2024-09-17T16%3A22%3A11Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-16T23%3A14%3A58Z&amp;ske=2024-09-17T23%3A14%3A58Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=aEybnPnQxSe9zXxZW5TIDq9LoAWJeoAXTu5fKQJw2zA%3D" alt="Placeholder image" class="w-12 h-12 rounded-full mr-4" width="50" height="50"/>
+                <h2 class="text-xl font-semibold">Automatic</h2>
+            </div>
+            <p class="text-gray-700 text-justify">
+                Abstract- Online voting is an advanced method of performing elections through the internet, reducing the need for conventional printed ballots and voting machines that are electronic. The main focus of this method is to ensure that each voter's vote remains impervious to interference or compromise. Due to its inherent advantages, including decentralized nodes for voting and exhaustive end-to-end validation, we decided to use blockchain based technology in the voting process. Utilizing blockchain-based systems ensures an excellent level of validation and safety for electors, aligning with the fundamental principles of a free and equitable election process.
+            </p>
+            <p class="text-gray-500 text-right mt-4">Words: 64</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md w-1/2 ml-4">
+            <h2 class="text-xl font-semibold mb-4">Report</h2>
+            <div class="flex justify-between mb-4">
+                <div class="text-center">
+                    <h3 class="text-lg font-semibold">Web Search</h3>
+                    <p class="text-3xl text-red-500 font-bold">67%</p>
+                    <p class="text-gray-700">Plagiarized</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-lg font-semibold">Sources</h3>
+                    <p class="text-3xl text-blue-500 font-bold">10</p>
+                    <p class="text-gray-700">Sources found</p>
+                </div>
+            </div>
+            <div class="flex justify-center mb-4">
+                <button class="bg-purple-600 text-white py-2 px-4 rounded-full mx-2">Web Search</button>
+                <button class="bg-black text-white py-2 px-4 rounded-full mx-2">Sources</button>
+                <button class="bg-purple-600 text-white py-2 px-4 rounded-full mx-2">Citations</button>
+            </div>
+            <p class="text-gray-700 text-justify">
+                Abstract
+                <span class="text-red-500">
+                    performing elections through the Internet, reducing the need for conventional printed ballots and voting machines that are electronic. The main focus of this method is to ensure that each voter's vote remains impervious to interference or compromise. Due to it inherent advantages, including decentralized nodes for voting and exhaustive end-to-end validation, we decided to use blockchain-based technology in the i voting process. Usizing blockchain-based systems
+                </span>
+            </p>
+            <!-- Added Check Details button here -->
+            <div class="flex justify-center mt-4">
+               <button class="bg-green-600 text-white py-2 px-4 rounded-full" onclick="window.location.href='2.0.html'">Check Details</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

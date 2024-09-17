@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Plagiarism Checker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-orange-500 p-4 flex justify-between items-center">
+        <div class="text-white text-xl font-bold flex items-center">
+            <i class="fas fa-check-circle mr-2"></i>
+            Plagiarism_Checker
+        </div>
+        <div>
+            <button class="bg-black text-white px-4 py-2 rounded mr-2">Home</button>
+            <button class="bg-black text-white px-4 py-2 rounded">New Check</button>
+        </div>
+    </header>
+    <main class="p-8">
+        <h1 class="text-2xl font-bold mb-4">Plagiarism Check Results</h1>
+        <section class="bg-white p-6 rounded shadow mb-6">
+            <h2 class="text-xl font-semibold mb-2">Summary</h2>
+            <p>Your document contains 12% copied content, 5% references to external sources, and 3% AI-generated text.</p>
+        </section>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-lg font-semibold mb-2">Copied Content</h3>
+                <p>Paragraph 1: Copied from <a href="https://www.wikipedia.com" class="text-blue-500">www.wikipedia.com</a></p>
+                <p>Paragraph 3: Copied from <a href="https://www.sanfoundry.com" class="text-blue-500">www.Sanfoundry.com</a></p>
+                <p>Paragraph 7: Copied from <a href="https://www.github.com" class="text-blue-500">www.Github.com</a></p>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-lg font-semibold mb-2">External References</h3>
+                <p>Paragraph 2: Referenced <a href="https://www.medium.org" class="text-blue-500">www.Medium.org</a></p>
+                <p>Paragraph 4: Referenced <a href="https://www.blog.org" class="text-blue-500">www.Blog.org</a></p>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-lg font-semibold mb-2">AI-Generated Text</h3>
+                <p>Paragraph 5: AI-generated content detected</p>
+                <p>Paragraph 6: AI-generated content detected</p>
+            </div>
+        </div>
+        <div class="flex justify-end mt-6">
+            <button class="bg-black text-white px-4 py-2 rounded mr-2">Download Report</button>
+            <button class="bg-black text-white px-4 py-2 rounded">Back to Home</button>
+        </div>
+    </main>
+    <footer class="bg-gray-200 text-center p-4 mt-8">
+        © 2024 Plagiarism_Checker. All rights reserved.
+    </footer>
+</body>
+</html>

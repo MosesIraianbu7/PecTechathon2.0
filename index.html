@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Checker</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container */
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9a825; /* Background orange color */
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            width: 100%;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .navbar-logo {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            height: calc(100vh - 80px); /* Full height minus navbar */
+            padding: 40px;
+            background-color: #f9a825;
+        }
+
+        /* Left Section */
+        .left-section {
+            flex: 1;
+            color: white;
+        }
+
+        .main-heading {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        /* Get Started Button */
+        .get-started-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #f9a825;
+            background-color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .get-started-button:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Right Section (Image) */
+        .right-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="navbar-brand">Plagiarism Checker</div>
+            <div class="navbar-logo">TechTitans</div>
+        </nav>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Section -->
+            <div class="left-section">
+                <h1 class="main-heading">Plagiarism Checker</h1>
+                <p class="description">
+                    Plagiarism Checker analyzes whether any section of your text did not properly attribute authorship to content already published on the web or in books, research papers, academic papers, or news sources.
+                </p>
+                <!-- Modified button to navigate to the new page -->
+                <button class="get-started-button" onclick="location.href='upload.html'">Get started</button>
+            </div>
+            
+            <!-- Right Section (Image) -->
+            <div class="right-section">
+                <img src="BenefitsHero.png" alt="Plagiarism Checker" class="main-image">
+            </div>
+        </main>
+    </div>
+</body>
+</html>
